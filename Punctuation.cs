@@ -5,7 +5,7 @@ namespace TextTokenizerApp
 {
     public class Punctuation : Token
     {
-        public Punctuation() : base() { } // пустой конструктор для XML
+        public Punctuation() : base() { } 
 
         public Punctuation(string value) : base(Validate(value)) { }
 
